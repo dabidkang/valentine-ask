@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Luxurious Script", cursive;
+    font-weight: lighter;
     color: white;
     background-color: pink;
 }
