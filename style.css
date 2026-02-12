@@ -4,20 +4,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("heart-bg.jpg");
-    font-family: "Imperial Script", cursive;
+    font-family: "Luxurious Script", cursive;
+    color: white;
+    background-color: pink;
 }
 
-.imperial-script-regular {
-  font-family: "Imperial Script", cursive;
+.luxurious-script-regular {
+  font-family: "Luxurious Script", cursive;
   font-weight: 400;
   font-style: normal;
 }
 
+
 /* Envelope Screen */
 #envelope-container {
     text-align: center;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 @keyframes pulse {
@@ -33,9 +35,13 @@ body {
 }
 
 #envelope{
-    width: 200px;
-    animation: pulse 1.5s infinite;
+    width: 275px;
+    animation: pulse 2.5s infinite;
     cursor: pointer;
+}
+
+p {
+    margin: 0;
 }
 
 #letter-container{
@@ -56,7 +62,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("window.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -75,7 +80,9 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
     margin:0;
 }
 
@@ -86,8 +93,8 @@ p {
 /* Cat */
 
 .cat {
-    width: 250px;
-    margin: 10px 0;
+    width: 125px;
+    margin: 40px 0;
     transition: width 0.4s ease;
 }
 
@@ -111,6 +118,9 @@ p {
     width: 120px;
     cursor: pointer;
     user-select: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: pink;
 }
 
 .yes-btn,
@@ -135,11 +145,6 @@ display: inline-block;
 }
 
 .final-text{
-    font-size: 22px;
-    line-height: 1.4;
     text-align: center;
     display: inline-block;
-    padding: 10px 20px;
-    background-color: rgba(255,240,240,0.5);
-    border-radius: 12px;
 }
